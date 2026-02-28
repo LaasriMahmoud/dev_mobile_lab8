@@ -1,0 +1,21 @@
+# ---- Android ----
+**/.gradle/
+**/build/
+**/captures/
+**/.idea/
+**/*.iml
+**/local.properties
+**/.externalNativeBuild/
+**/.cxx/
+
+# ---- PHP / general ----
+*.log
+.DS_Store
+Thumbs.db
+
+# ---- XAMPP / sensitive ----
+backend-php/**/config.inc.php
+backend-php/**/.env
+
+# ---- DB dumps (optionnel) ----
+*.sql
